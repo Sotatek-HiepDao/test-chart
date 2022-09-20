@@ -39,7 +39,15 @@ export const options = {
               maxRotation: 0,
               minRotation: 0,
           },
+          grid: {
+            display: false,
+          },
       },
+      yAxes: {
+        grid: {
+          display: false,
+        },
+    },
   },
   elements: {
       point: {
